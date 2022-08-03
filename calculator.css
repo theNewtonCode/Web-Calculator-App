@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 15, 171);
+    align-items: flex-end;
+}
+.font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-transform: uppercases;
+}
+
+main {
+    margin: 85px auto;
+    width: 370px;
+    padding: 30px;
+    border: 5px solid;
+}
+#display, #sector1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#sector1{
+    height: 400px;
+}
+#dispout{
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    text-align: right;
+    font-size: 2rem;
+    overflow-x: hidden;
+    background-color: white;
+}
+#cancelprev, #delete{
+    width: 70px;
+    height: 40px;
+    border: 2px solid black;
+}
+#display{
+    column-gap: 15px;
+}
+#display button{    
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: red;
+    color: white;
+}
+#numbers{
+    width: 285px;
+    display: grid;
+    grid-column-gap: 15px;
+    grid-template-columns: 85px 85px 85px;
+    grid-row-gap: 15px;
+}
+#numbers button{
+    background-color: rgb(247, 169, 85);
+    font-size: 2rem;
+    border-radius: 5px;
+}
+#operations{
+    margin-left: 15px;
+    width: 70px;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 70px;
+}
+#operations button{
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: dodgerblue;
+    color: white;
+}
+body{
+    background-color: aqua;
+}
+main{
+    background-color: rgb(195, 169, 226);
+}
